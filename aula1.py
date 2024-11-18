@@ -1,6 +1,3 @@
-#operador de atribuição =
-diaSemana = 'segunda'
+saldo = float(input('digite o saldo médio'))
 
-print('meu primeiro código')
-print(diaSemana)
-
+print('seu saldo é de ', saldo)
