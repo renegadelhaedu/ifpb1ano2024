@@ -13,6 +13,9 @@ while nome != 'fim':
     soma = soma + salario
     qtde = qtde + 1
 
+    if salario < soma / qtde:
+        print(nome, ' está recebendo abaixo da média. Lute por melhorias')
+
     if salario < menorSalario:
         menorSalario = salario #sobrescrever
 
